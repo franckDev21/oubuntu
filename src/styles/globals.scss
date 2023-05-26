@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.container-two{
+  @apply container;
+  max-width: 1224px;
+  width: 100%;
+}
+
+.active{
+  @apply text-primary border-slate-200;
+}
+
+.react-select {
+  & *, &:focus {
+    border: none !important;
+    stroke: none;
+    outline: none !important;
+    outline-offset: 0 !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+  }
+} 
+
+body {
+  font-family: "Roboto", sans-serif;
+  &::-webkit-scrollbar {
+    width: 0.7rem;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #cccccc27;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#01502cc7, #01502D);
+    border-radius: 0.5rem;
+  }
+}
+
+
+// accordeon
+
+@import './Accordeon.scss';
