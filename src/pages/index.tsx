@@ -1,5 +1,6 @@
 import PublicLayout from '@/components/layouts/PublicLayout'
 import FAQBlock from '@/components/pages/home/FAQBlock'
+import NewLetter from '@/components/pages/home/NewLetter'
 import Session from '@/components/pages/home/Session'
 import Stepper from '@/components/pages/home/Stepper'
 import StepperMarket from '@/components/pages/home/StepperMarket'
@@ -18,6 +19,8 @@ const HomePage: NextPage = () => {
       <Session />
 
       <FAQBlock />
+
+      <NewLetter />
 
       
     </PublicLayout>

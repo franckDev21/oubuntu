@@ -1,6 +1,6 @@
 import React, { FC, ReactNode } from 'react'
 import HeroBaner from './HeroBaner';
-import { Footer } from 'flowbite-react';
+import Footer from './Footer';
 
 type PublicLayoutProps = {
   children: ReactNode;
