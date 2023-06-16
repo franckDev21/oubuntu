@@ -37,4 +37,5 @@ const NewLetter:FC<NewLetterProps> = ({ className = '' }) => {
   )
 }
 
+
 export default NewLetter 
